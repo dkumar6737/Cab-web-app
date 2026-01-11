@@ -1418,3 +1418,247 @@
 1744625591694 GET /rides/ridehistory Mon Apr 14 2025 15:43:11 GMT+0530 (India Standard Time)
 
 1744625593717 GET /user/profile Mon Apr 14 2025 15:43:13 GMT+0530 (India Standard Time)
+
+1744628788285 POST /captain/login Mon Apr 14 2025 16:36:28 GMT+0530 (India Standard Time)
+
+1744628799306 POST /user/login Mon Apr 14 2025 16:36:39 GMT+0530 (India Standard Time)
+
+1744628799470 GET /user/profile Mon Apr 14 2025 16:36:39 GMT+0530 (India Standard Time)
+
+1744628803984 GET /maps/get-suggestions?input=s Mon Apr 14 2025 16:36:43 GMT+0530 (India Standard Time)
+
+1744628804161 GET /maps/get-suggestions?input=su Mon Apr 14 2025 16:36:44 GMT+0530 (India Standard Time)
+
+1744628804444 GET /maps/get-suggestions?input=sur Mon Apr 14 2025 16:36:44 GMT+0530 (India Standard Time)
+
+1744628804593 GET /maps/get-suggestions?input=sura Mon Apr 14 2025 16:36:44 GMT+0530 (India Standard Time)
+
+1744628804711 GET /maps/get-suggestions?input=surat Mon Apr 14 2025 16:36:44 GMT+0530 (India Standard Time)
+
+1744628807202 GET /maps/get-suggestions?input=n Mon Apr 14 2025 16:36:47 GMT+0530 (India Standard Time)
+
+1744628807342 GET /maps/get-suggestions?input=na Mon Apr 14 2025 16:36:47 GMT+0530 (India Standard Time)
+
+1744628807514 GET /maps/get-suggestions?input=nav Mon Apr 14 2025 16:36:47 GMT+0530 (India Standard Time)
+
+1744628807872 GET /maps/get-suggestions?input=navs Mon Apr 14 2025 16:36:47 GMT+0530 (India Standard Time)
+
+1744628808025 GET /maps/get-suggestions?input=navsa Mon Apr 14 2025 16:36:48 GMT+0530 (India Standard Time)
+
+1744628808269 GET /maps/get-suggestions?input=navsar Mon Apr 14 2025 16:36:48 GMT+0530 (India Standard Time)
+
+1744628808668 GET /maps/get-suggestions?input=navsari Mon Apr 14 2025 16:36:48 GMT+0530 (India Standard Time)
+
+1744628810268 GET /rides/get-fare?pickup=surat&destination=navsari Mon Apr 14 2025 16:36:50 GMT+0530 (India Standard Time)
+
+1744628818812 POST /rides/create Mon Apr 14 2025 16:36:58 GMT+0530 (India Standard Time)
+
+1744628844352 POST /captain/login Mon Apr 14 2025 16:37:24 GMT+0530 (India Standard Time)
+
+1744628847998 POST /user/login Mon Apr 14 2025 16:37:27 GMT+0530 (India Standard Time)
+
+1744628848218 GET /user/profile Mon Apr 14 2025 16:37:28 GMT+0530 (India Standard Time)
+
+1744628852804 GET /maps/get-suggestions?input=b Mon Apr 14 2025 16:37:32 GMT+0530 (India Standard Time)
+
+1744628852902 GET /maps/get-suggestions?input=ba Mon Apr 14 2025 16:37:32 GMT+0530 (India Standard Time)
+
+1744628853114 GET /maps/get-suggestions?input=bar Mon Apr 14 2025 16:37:33 GMT+0530 (India Standard Time)
+
+1744628853568 GET /maps/get-suggestions?input=barh Mon Apr 14 2025 16:37:33 GMT+0530 (India Standard Time)
+
+1744628853875 GET /maps/get-suggestions?input=barhi Mon Apr 14 2025 16:37:33 GMT+0530 (India Standard Time)
+
+1744628856234 GET /maps/get-suggestions?input=h Mon Apr 14 2025 16:37:36 GMT+0530 (India Standard Time)
+
+1744628856384 GET /maps/get-suggestions?input=ha Mon Apr 14 2025 16:37:36 GMT+0530 (India Standard Time)
+
+1744628856665 GET /maps/get-suggestions?input=haz Mon Apr 14 2025 16:37:36 GMT+0530 (India Standard Time)
+
+1744628856807 GET /maps/get-suggestions?input=haza Mon Apr 14 2025 16:37:36 GMT+0530 (India Standard Time)
+
+1744628857194 GET /maps/get-suggestions?input=hazar Mon Apr 14 2025 16:37:37 GMT+0530 (India Standard Time)
+
+1744628857517 GET /maps/get-suggestions?input=hazari Mon Apr 14 2025 16:37:37 GMT+0530 (India Standard Time)
+
+1744628858004 GET /maps/get-suggestions?input=hazarib Mon Apr 14 2025 16:37:38 GMT+0530 (India Standard Time)
+
+1744628858083 GET /maps/get-suggestions?input=hazariba Mon Apr 14 2025 16:37:38 GMT+0530 (India Standard Time)
+
+1744628858252 GET /maps/get-suggestions?input=hazaribag Mon Apr 14 2025 16:37:38 GMT+0530 (India Standard Time)
+
+1744628858618 GET /maps/get-suggestions?input=hazaribagh Mon Apr 14 2025 16:37:38 GMT+0530 (India Standard Time)
+
+1744628860216 GET /rides/get-fare?pickup=barhi&destination=hazaribagh Mon Apr 14 2025 16:37:40 GMT+0530 (India Standard Time)
+
+1744628864833 POST /rides/create Mon Apr 14 2025 16:37:44 GMT+0530 (India Standard Time)
+
+1744628872510 POST /rides/confirm Mon Apr 14 2025 16:37:52 GMT+0530 (India Standard Time)
+
+1744628880422 GET /rides/start-ride?rideId=67fcec85fbc352d5dc043fa7&otp=740258 Mon Apr 14 2025 16:38:00 GMT+0530 (India Standard Time)
+
+1744628883642 GET /rides/ride-fare Mon Apr 14 2025 16:38:03 GMT+0530 (India Standard Time)
+
+1744628886922 POST /payment/create-payment Mon Apr 14 2025 16:38:06 GMT+0530 (India Standard Time)
+
+1744628888834 POST /rides/end-ride Mon Apr 14 2025 16:38:08 GMT+0530 (India Standard Time)
+
+1744628890555 GET /user/profile Mon Apr 14 2025 16:38:10 GMT+0530 (India Standard Time)
+
+1746161945940 POST /user/login Fri May 02 2025 10:29:05 GMT+0530 (India Standard Time)
+
+1746161946306 GET /user/profile Fri May 02 2025 10:29:06 GMT+0530 (India Standard Time)
+
+1746162035430 POST /captain/login Fri May 02 2025 10:30:35 GMT+0530 (India Standard Time)
+
+1746162045121 POST /captain/login Fri May 02 2025 10:30:45 GMT+0530 (India Standard Time)
+
+1746162049508 GET /maps/get-suggestions?input=s Fri May 02 2025 10:30:49 GMT+0530 (India Standard Time)
+
+1746162049565 GET /maps/get-suggestions?input=su Fri May 02 2025 10:30:49 GMT+0530 (India Standard Time)
+
+1746162049920 GET /maps/get-suggestions?input=sur Fri May 02 2025 10:30:49 GMT+0530 (India Standard Time)
+
+1746162050077 GET /maps/get-suggestions?input=sura Fri May 02 2025 10:30:50 GMT+0530 (India Standard Time)
+
+1746162050172 GET /maps/get-suggestions?input=surat Fri May 02 2025 10:30:50 GMT+0530 (India Standard Time)
+
+1746162052556 GET /maps/get-suggestions?input=n Fri May 02 2025 10:30:52 GMT+0530 (India Standard Time)
+
+1746162052738 GET /maps/get-suggestions?input=na Fri May 02 2025 10:30:52 GMT+0530 (India Standard Time)
+
+1746162052939 GET /maps/get-suggestions?input=nav Fri May 02 2025 10:30:52 GMT+0530 (India Standard Time)
+
+1746162053215 GET /maps/get-suggestions?input=navs Fri May 02 2025 10:30:53 GMT+0530 (India Standard Time)
+
+1746162053371 GET /maps/get-suggestions?input=navsa Fri May 02 2025 10:30:53 GMT+0530 (India Standard Time)
+
+1746162053675 GET /maps/get-suggestions?input=navsar Fri May 02 2025 10:30:53 GMT+0530 (India Standard Time)
+
+1746162054152 GET /maps/get-suggestions?input=navsari Fri May 02 2025 10:30:54 GMT+0530 (India Standard Time)
+
+1746162055716 GET /rides/get-fare?pickup=surat&destination=navsari Fri May 02 2025 10:30:55 GMT+0530 (India Standard Time)
+
+1746162084550 POST /rides/create Fri May 02 2025 10:31:24 GMT+0530 (India Standard Time)
+
+1746162089606 POST /rides/confirm Fri May 02 2025 10:31:29 GMT+0530 (India Standard Time)
+
+1746162098093 GET /rides/start-ride?rideId=681451a638734b8de44e3bac&otp=745636 Fri May 02 2025 10:31:38 GMT+0530 (India Standard Time)
+
+1746162102413 GET /rides/ride-fare Fri May 02 2025 10:31:42 GMT+0530 (India Standard Time)
+
+1746162104283 POST /payment/create-payment Fri May 02 2025 10:31:44 GMT+0530 (India Standard Time)
+
+1746162107066 GET /user/profile Fri May 02 2025 10:31:47 GMT+0530 (India Standard Time)
+
+1746162109627 POST /rides/end-ride Fri May 02 2025 10:31:49 GMT+0530 (India Standard Time)
+
+1758349046257 POST /captain/login Sat Sep 20 2025 11:47:26 GMT+0530 (India Standard Time)
+
+1758349060297 POST /captain/login Sat Sep 20 2025 11:47:40 GMT+0530 (India Standard Time)
+
+1758349065977 POST /captain/login Sat Sep 20 2025 11:47:45 GMT+0530 (India Standard Time)
+
+1758349073927 POST /captain/login Sat Sep 20 2025 11:47:53 GMT+0530 (India Standard Time)
+
+1758349083354 POST /user/login Sat Sep 20 2025 11:48:03 GMT+0530 (India Standard Time)
+
+1758349097602 POST /user/login Sat Sep 20 2025 11:48:17 GMT+0530 (India Standard Time)
+
+1758349106193 POST /user/login Sat Sep 20 2025 11:48:26 GMT+0530 (India Standard Time)
+
+1758349112074 POST /user/login Sat Sep 20 2025 11:48:32 GMT+0530 (India Standard Time)
+
+1758349112193 GET /user/profile Sat Sep 20 2025 11:48:32 GMT+0530 (India Standard Time)
+
+1758349162232 GET /maps/get-suggestions?input=s Sat Sep 20 2025 11:49:22 GMT+0530 (India Standard Time)
+
+1758349162404 GET /maps/get-suggestions?input=su Sat Sep 20 2025 11:49:22 GMT+0530 (India Standard Time)
+
+1758349162660 GET /maps/get-suggestions?input=sur Sat Sep 20 2025 11:49:22 GMT+0530 (India Standard Time)
+
+1758349162812 GET /maps/get-suggestions?input=sura Sat Sep 20 2025 11:49:22 GMT+0530 (India Standard Time)
+
+1758349162890 GET /maps/get-suggestions?input=surat Sat Sep 20 2025 11:49:22 GMT+0530 (India Standard Time)
+
+1758349165413 GET /maps/get-suggestions?input=n Sat Sep 20 2025 11:49:25 GMT+0530 (India Standard Time)
+
+1758349165598 GET /maps/get-suggestions?input=na Sat Sep 20 2025 11:49:25 GMT+0530 (India Standard Time)
+
+1758349165842 GET /maps/get-suggestions?input=nav Sat Sep 20 2025 11:49:25 GMT+0530 (India Standard Time)
+
+1758349166144 GET /maps/get-suggestions?input=navs Sat Sep 20 2025 11:49:26 GMT+0530 (India Standard Time)
+
+1758349166404 GET /maps/get-suggestions?input=navsa Sat Sep 20 2025 11:49:26 GMT+0530 (India Standard Time)
+
+1758349166603 GET /maps/get-suggestions?input=navsar Sat Sep 20 2025 11:49:26 GMT+0530 (India Standard Time)
+
+1758349167106 GET /maps/get-suggestions?input=navsari Sat Sep 20 2025 11:49:27 GMT+0530 (India Standard Time)
+
+1758349168875 GET /rides/get-fare?pickup=surat&destination=navsari Sat Sep 20 2025 11:49:28 GMT+0530 (India Standard Time)
+
+1758349195766 POST /rides/create Sat Sep 20 2025 11:49:55 GMT+0530 (India Standard Time)
+
+1761202604253 POST /user/register Thu Oct 23 2025 12:26:44 GMT+0530 (India Standard Time)
+
+1761202615398 POST /user/login Thu Oct 23 2025 12:26:55 GMT+0530 (India Standard Time)
+
+1761202615627 GET /user/profile Thu Oct 23 2025 12:26:55 GMT+0530 (India Standard Time)
+
+1761202716593 POST /captain/register Thu Oct 23 2025 12:28:36 GMT+0530 (India Standard Time)
+
+1761202720718 POST /captain/login Thu Oct 23 2025 12:28:40 GMT+0530 (India Standard Time)
+
+1761202748478 GET /maps/get-suggestions?input=s Thu Oct 23 2025 12:29:08 GMT+0530 (India Standard Time)
+
+1761202748599 GET /maps/get-suggestions?input=su Thu Oct 23 2025 12:29:08 GMT+0530 (India Standard Time)
+
+1761202748855 GET /maps/get-suggestions?input=sur Thu Oct 23 2025 12:29:08 GMT+0530 (India Standard Time)
+
+1761202749031 GET /maps/get-suggestions?input=sura Thu Oct 23 2025 12:29:09 GMT+0530 (India Standard Time)
+
+1761202749060 GET /maps/get-suggestions?input=surat Thu Oct 23 2025 12:29:09 GMT+0530 (India Standard Time)
+
+1761202752242 GET /maps/get-suggestions?input=n Thu Oct 23 2025 12:29:12 GMT+0530 (India Standard Time)
+
+1761202752385 GET /maps/get-suggestions?input=na Thu Oct 23 2025 12:29:12 GMT+0530 (India Standard Time)
+
+1761202752550 GET /maps/get-suggestions?input=nav Thu Oct 23 2025 12:29:12 GMT+0530 (India Standard Time)
+
+1761202752841 GET /maps/get-suggestions?input=navs Thu Oct 23 2025 12:29:12 GMT+0530 (India Standard Time)
+
+1761202753023 GET /maps/get-suggestions?input=navsa Thu Oct 23 2025 12:29:13 GMT+0530 (India Standard Time)
+
+1761202753132 GET /maps/get-suggestions?input=navsar Thu Oct 23 2025 12:29:13 GMT+0530 (India Standard Time)
+
+1761202753638 GET /maps/get-suggestions?input=navsari Thu Oct 23 2025 12:29:13 GMT+0530 (India Standard Time)
+
+1761202755926 GET /rides/get-fare?pickup=surat&destination=navsari Thu Oct 23 2025 12:29:15 GMT+0530 (India Standard Time)
+
+1762003868181 POST /user/register Sat Nov 01 2025 19:01:08 GMT+0530 (India Standard Time)
+
+1762003877652 POST /user/login Sat Nov 01 2025 19:01:17 GMT+0530 (India Standard Time)
+
+1762003878106 GET /user/profile Sat Nov 01 2025 19:01:18 GMT+0530 (India Standard Time)
+
+1762003916948 GET /maps/get-suggestions?input=g Sat Nov 01 2025 19:01:56 GMT+0530 (India Standard Time)
+
+1762003917131 GET /maps/get-suggestions?input=gh Sat Nov 01 2025 19:01:57 GMT+0530 (India Standard Time)
+
+1762003917361 GET /maps/get-suggestions?input=gha Sat Nov 01 2025 19:01:57 GMT+0530 (India Standard Time)
+
+1762003917652 GET /maps/get-suggestions?input=ghan Sat Nov 01 2025 19:01:57 GMT+0530 (India Standard Time)
+
+1762003918055 GET /maps/get-suggestions?input=ghang Sat Nov 01 2025 19:01:58 GMT+0530 (India Standard Time)
+
+1762003918266 GET /maps/get-suggestions?input=ghangh Sat Nov 01 2025 19:01:58 GMT+0530 (India Standard Time)
+
+1762003918453 GET /maps/get-suggestions?input=ghangha Sat Nov 01 2025 19:01:58 GMT+0530 (India Standard Time)
+
+1762003919588 GET /maps/get-suggestions?input=ghanghar Sat Nov 01 2025 19:01:59 GMT+0530 (India Standard Time)
+
+1762003919874 GET /maps/get-suggestions?input=ghanghari Sat Nov 01 2025 19:01:59 GMT+0530 (India Standard Time)
+
+1762003924061 GET /maps/get-suggestions?input=navsari Sat Nov 01 2025 19:02:04 GMT+0530 (India Standard Time)
+
+1762003925130 GET /rides/get-fare?pickup=ghanghari&destination=navsari Sat Nov 01 2025 19:02:05 GMT+0530 (India Standard Time)
