@@ -4,7 +4,8 @@ require('dotenv').config();
 
 
 function connectToDb() {
-    const dbConnection = process.env.NODE_ENV === 'production'
+    // In production, support both DB_CONNECT_PROD (specific) or DB_CONNECT (generic fallback)
+    const dbConnection = (process.env.NODE_ENV === 'production' && process.env.DB_CONNECT_PROD)
         ? process.env.DB_CONNECT_PROD
         : process.env.DB_CONNECT;
 
