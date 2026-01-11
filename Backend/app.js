@@ -33,22 +33,22 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser())
 
-const logStream = rfs.createStream((time, index) =>{
-    if(!time) return 'log.txt'; //Default file name
-    const date = new Date(time);
-    return `log-${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}.txt`;
-},{
-    interval: '1d', // Rotate daily
-    path: path.join(__dirname, 'log'), // Directory to save logs
-    maxSize: '10M', // Maximum file size
-})
+// const logStream = rfs.createStream((time, index) =>{
+//     if(!time) return 'log.txt'; //Default file name
+//     const date = new Date(time);
+//     return `log-${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}.txt`;
+// },{
+//     interval: '1d', // Rotate daily
+//     path: path.join(__dirname, 'log'), // Directory to save logs
+//     maxSize: '10M', // Maximum file size
+// })
 
-app.use((req, res, next) => {
-    const logEntry = `\n${Date.now()} ${req.method} ${req.url} ${new Date().toString()}\n`;
-    logStream.write(logEntry);
+// app.use((req, res, next) => {
+//     const logEntry = `\n${Date.now()} ${req.method} ${req.url} ${new Date().toString()}\n`;
+//     // logStream.write(logEntry);
 
-    next();
-});
+//     next();
+// });
 
 app.get('/',(req,res)=>{
     res.send('Helllo World')
