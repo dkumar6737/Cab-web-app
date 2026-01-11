@@ -1,7 +1,7 @@
 const userModel = require('../models/user.model');
 const userService = require('../services/user.service');
 const { validationResult } = require('express-validator');
-const blackListTokenModel = require('../models/blackListToken.model');
+const blackListTokenModel = require('../models/blacklistToken.model');
 const bcrypt = require('bcrypt');
 module.exports.registerUser = async (req, res, next) => {
 
@@ -11,7 +11,7 @@ module.exports.registerUser = async (req, res, next) => {
     }
 
     // console.log(req.body);
-    
+
     const { fullname, email, password } = req.body;
 
     const isUserAlready = await userModel.findOne({ email });
@@ -43,7 +43,7 @@ module.exports.loginUser = async (req, res, next) => {
         return res.status(400).json({ errors: errors.array() });
     }
     // console.log(req.body);
-    
+
 
     const { email, password } = req.body;
 
@@ -74,7 +74,7 @@ module.exports.getUserProfile = async (req, res, next) => {
 
 module.exports.logoutUser = async (req, res, next) => {
     res.clearCookie('token');
-    const token = req.cookies.token || req.headers.authorization.split(' ')[ 1 ];
+    const token = req.cookies.token || req.headers.authorization.split(' ')[1];
 
     await blackListTokenModel.create({ token });
 
@@ -96,7 +96,7 @@ module.exports.deleteAccount = async (req, res) => {
         const { password } = req.body;
         const userId = req.user._id; // Ensure `req.user` is populated from auth middleware
         const token = req.token; // Ensure `req.token` is available
-         console.log('Token:', token);
+        console.log('Token:', token);
         if (!password) {
             return res.status(400).json({ message: 'Password is required' });
         }

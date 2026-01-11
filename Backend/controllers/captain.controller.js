@@ -1,6 +1,6 @@
 const captainModel = require('../models/captain.model');
 const captainService = require('../services/captain.service');
-const blackListTokenModel = require('../models/blackListToken.model');
+const blackListTokenModel = require('../models/blacklistToken.model');
 const { validationResult } = require('express-validator');
 
 
@@ -38,7 +38,7 @@ module.exports.registerCaptain = async (req, res, next) => {
     res.status(201).json({ token, captains });
 
     // console.log(req.body);
-    
+
 }
 
 module.exports.loginCaptain = async (req, res) => {
@@ -63,7 +63,7 @@ module.exports.loginCaptain = async (req, res) => {
 
     // Generate token
     const token = captain.generateAuthToken();
-   
+
 
     captain.status = 'active';
     await captain.save();
@@ -108,23 +108,23 @@ module.exports.getAllCaptain = async (req, res) => {
 };
 
 //Delete captain
-module.exports.deleteCaptain = async (req,res) => {
-    try{
-       const id = req.params.id.trim();
+module.exports.deleteCaptain = async (req, res) => {
+    try {
+        const id = req.params.id.trim();
 
-       if(!id.match(/^[0-9a-fA-F]{24}$/)){
-        return res.status(400).json({ message: "Invalid Captain Id" })
-       }
+        if (!id.match(/^[0-9a-fA-F]{24}$/)) {
+            return res.status(400).json({ message: "Invalid Captain Id" })
+        }
 
-       const deleteCaptain = await captainModel.findByIdAndDelete(id);
+        const deleteCaptain = await captainModel.findByIdAndDelete(id);
 
-       if(!deleteCaptain){
-        return res.status(404).json({ message: "Captain not found" })
-       }
-       res.status(200).json({ message: "Captain Delete successfully" })
-    } catch (error){
-        console.log("Error deleting captain",error)
-        res.status(500).json( { message: "Internal server Error!" })
+        if (!deleteCaptain) {
+            return res.status(404).json({ message: "Captain not found" })
+        }
+        res.status(200).json({ message: "Captain Delete successfully" })
+    } catch (error) {
+        console.log("Error deleting captain", error)
+        res.status(500).json({ message: "Internal server Error!" })
     }
 };
 
